@@ -1,0 +1,780 @@
+
+body{
+    margin: 0;padding: 0;
+  
+    
+}
+.b,.c,.d,.fun,.skills,.part,
+.client,
+.stay{
+   
+    background-attachment: fixed;
+    background-position: center center;
+    background-size:cover;
+    
+    height: 100vh;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    position: relative
+   
+}
+.ovv{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,.3);
+    height: 100%;
+    width: 100%
+}
+.b{
+     background: url(../images/slider/bg-1.jpg);
+}
+.c{
+     background: url(../images/slider/bg-2.jpg);
+}
+.d{
+     background: url(../images/slider/bg-3.jpg);
+}
+
+header .row{
+width: 100% !important}
+.infor{
+    color: white;
+    position: absolute;
+   text-align: center;
+    top: 55%;width:102%;
+    transform: translateY(-50%)
+}
+.infor h1{
+    font-size: 5rem;
+    font-weight: bold
+}
+.infor span{
+    color: aqua
+}
+.infor h4{
+  
+    margin-top: 40px;
+    font-size: 30px;
+    letter-spacing: 1px
+}
+ 
+.infor button{
+background: transparent;
+color: aqua;
+border: 1px solid aqua;
+    transition: all .3s ease-in-out;
+
+margin-top: 50px;
+padding: 10px;
+width: 120px}
+
+.infor button:hover{
+    background: aqua;
+    border-color: white;
+    color: white
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    color: aqua;
+
+    padding: 14px
+}
+@media screen and (max-width:780px){
+    .infor h1{
+        font-size: 30px!important
+    }
+    .infor h4{
+        font-size: 17px
+    }
+}
+.v a{
+    color: aqua!important;
+}
+header nav ul li a{
+    margin-left: 19px !important;
+    color: white !important;
+    font-size: 16px;text-transform: uppercase;
+    font-weight: 500!important;
+    transition: all .3s ease-in
+}
+header nav ul li a:hover{
+ color: aqua!important;}
+
+.about,
+.team,
+.works,
+.price,
+.news,
+.contact{
+    color: white;
+    background: #222222;
+    padding: 70px 0
+}
+.about h4 span,
+.team h4 span,
+.works h4 span,
+.price h4 span,
+.news h4 span,
+.contact h4 span{
+   color: #fff;
+    padding: 9px 10px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: #00cfef
+}
+.about h6,
+.team h6,
+.works h6,
+.price h6,
+.news h6{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 30px
+}
+.about p:first-of-type,
+.team p:first-of-type,
+.works p:first-of-type,
+.price p:first-of-type,
+.news p:first-of-type,
+.contact p:first-of-type{
+    font-size: 20px;
+    margin-bottom: 70px
+}
+.about p span,
+.team p span,
+.works p span,
+.price p span,
+.news p span,
+.contact p span{
+    color:  #00cfef
+}
+.about i{
+    background: #00cfef;
+    padding: 65px;
+    border-radius: 50%;
+    outline: 0;
+    margin-top: 25px
+}
+.about .v{
+    font-size: 22px;
+    transform: translateY(-28px)
+}
+.about .col-md-4 p{
+    font-size: 15px;
+    line-height: 1.4;
+    transform: translateY(-25px);
+   
+}
+.fun{
+    background: url(../images/facts-bg.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    height: auto;position: relative;
+    padding: 70px 0
+}
+.ovv p{
+    margin-top: 120px;
+    margin-bottom: 80px
+}
+.fun h5
+,.skills h5,
+.part h5,
+.client h5,
+.stay h5{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #00cfef;
+     
+   
+}
+.fun p,
+.skills p,
+.part p,
+.client p,
+.stay p{
+font-size: 20px;
+    text-transform: capitalize;
+color: white;
+    z-index: 9 !important
+    
+}
+.fun .row,
+.skills .row{
+margin-top: 70px}
+.number{
+    font-size: 80px !important;
+    font-weight: 700;
+    color: #fff;
+}
+.number span{
+        color: #00cfef
+
+}
+.team .qq{
+    border: 2px solid white;
+    height:88%;
+   
+}
+.works .row{
+    width: 99%
+}
+
+.image{
+    position: relative;
+    transition: all .5s ease;
+    overflow: hidden;
+    width: 107%
+}
+.image:hover .ov{
+  top:0;
+    opacity: 1;
+    
+   
+     
+}
+.team .image:hover i{
+    transform: translateY(-5px)!important
+}
+
+.image .ov{
+    position: absolute;
+    top:-10px;
+    left: 0;
+    
+    opacity: 0;
+    width: 100%;
+    transition: all .5s ease;
+    height: 100%;
+    background: rgba(0,207,239,.6)
+}
+
+.qq i{
+    color: #00cfef;
+    padding: 10px;
+    background: white;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-top: 100px;
+    transform: translateY(-150px)
+   
+}
+.qq button{
+    width: 100px;
+    color: #00cfef;
+    
+    font-weight: 500;
+    border: 0;
+    outline: 0;padding: 4px;
+    text-transform: uppercase
+}
+.team img{
+    max-width: 100%
+}
+.team p:last-of-type{
+    padding-top: 12px
+}
+.skills{
+    background: url(../images/skills-bg.jpg);
+    background-attachment: fixed;
+    height: auto;
+    padding-top: 70px;position: relative;
+    padding-bottom: 100px;
+    background-position: center center
+}
+.ovv h5{
+transform: translateY(100px)}
+.skills h4{
+    color: #fff;
+    font-size: 16px;
+    margin-top: -57%;
+}
+.skills img{
+    max-width: 100%
+} 
+.skills h2{
+    width: 104px;
+    height: 66px;
+    z-index: 22;
+    transform: translateY(-200%);
+    margin-left: 30%;
+    font-size: 60px !Important;
+    
+    vertical-align: middle;
+   
+    
+    border: 0px;
+    background: none;
+    font: bold 40px Arial;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 0px;
+}
+.skills h4 span{
+    color: #00cfef
+}.fun .row{
+    margin-top: 160px
+}
+.skills .row >div{
+    padding-bottom: 50px
+}
+.skills .row{
+    margin-top: 200px
+}
+.works{
+    padding-bottom: 0
+}
+
+.works ul{
+    list-style: none;
+    margin: 4%
+}
+.works ul li{
+    display: inline-block;
+    margin-right: 40px;
+    font-size: 14px;
+    padding: 12px 22px;
+    margin-bottom: 4%;transition: all .5s ease;
+    background: transparent;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: 1px solid #00cfef;
+    color: #00cfef;
+}
+.works .v,
+ .works ul li:hover{
+    background:  #00cfef;
+    color: white
+}
+.works .row >div{
+    margin: 0;
+    padding: 0;
+    margin-left: -4px
+}
+.works .ov p{
+    margin-top: 80px;
+    font-size: 25px
+}
+.works .ov i{
+  color: white;
+    background: transparent;font-size: 50px;
+    margin-top: 70px;
+    z-index: 99 !important
+   
+}
+.works img{
+    max-width: 100%
+}
+.part{
+    background: url(../images/partners-bg.jpg);position: relative;
+    background-attachment: fixed;
+    background-position: center center;
+    padding-bottom: 80px;
+    height: auto
+    
+}
+.part .ovv{
+    position: absolute
+}
+.part .row{
+   padding-top: 30px
+}
+
+.part .row:first-of-type{
+    padding-top: 250px
+}
+.part img{
+    border: 1px solid transparent;
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+    transition: all .5s ease-in-out;cursor: pointer;
+    margin-bottom: 8px;
+}
+.part img:hover{
+    border-color: aqua
+}
+.qqqq{
+    border: 1px solid white;
+    padding: 30px 0
+}
+.qqqq h6{
+    font-size: 24px;
+    margin-bottom: 21px;
+    margin-top: 5px;
+}
+.qqqq i{
+    border-radius: 5px 5px 5px 5px;
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 40px;
+    background: #00cfef;
+    padding: 30px;
+    margin-bottom: 30px
+}
+.qqqq h6 span{
+    color: #00cfef
+}
+.qqqq h5{
+    font-size: 28px;
+    font-weight: bold;
+    color: #00cfef
+}
+.qqqq p{
+    font-size: 16px !important;
+    margin-top: 25px;
+    line-height: 2
+}
+.qqqq button{
+    color: #fff;
+    display: inline-block;
+    margin: 45px 0 25px;
+    padding: 11px 20px;
+    text-transform: capitalize;
+    background: #00cfef;
+    margin-top: -200px;
+    transition: all .2s ease-in;
+    border: 0
+}
+.qqqq button:hover{
+    background: transparent;
+    border:1px solid #00cfef;
+    color: #00cfef
+}
+.qqqq.c{
+    background: #00cfef !important;
+    height: auto
+}
+.qqqq.c i{
+    background: white;
+    color: #00cfef
+}
+.qqqq.c h5{
+    color: white
+}
+.qqqq.c button{
+    background: white;
+    color: #00cfef
+}
+.qqqq.c button:hover{
+    color: white;
+    background: #00cfef;
+    border-color: white
+}
+.price .row >div{
+    margin-bottom: 20px
+}
+.client{
+    background: url(../images/clients-bg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    padding-top: 50px !important
+}
+.client .carousel-inner img{
+    
+    border-radius: 50%;
+    margin-left: 240%;
+    max-width: 150px !important
+}
+.client .carousel-inner .carousel-item >div{
+    width: 18%;
+   
+}
+.client #carouselExampleIndicators{
+    margin-top: 180px
+}
+.client .carousel-inner p::before{
+    font-family: 'FontAwesome';
+    content: "\f10d";
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 30px;
+    font-weight: normal;
+}
+.client .carousel-inner p::after{
+    content: "\f10e";
+    font-size: 20px;
+    font-weight: bold;
+     font-family: 'FontAwesome';
+    padding-left: 30px;
+    font-weight: normal;
+}
+.client .carousel-inner p,
+.stay .carousel-inner p{
+    font-style: italic;
+    font-size: 18px;
+    color: #fff;
+    padding-top: 30px
+}
+
+.client .carousel-control-prev-icon, .client .carousel-control-next-icon,
+.stay .carousel-control-prev-icon, .stay .carousel-control-next-icon{
+    display: none
+}
+.client .carousel-indicators li.active,
+.stay .carousel-indicators li.active{
+    background: #00cfef;
+    border-color: white
+}
+.client h6{
+    color:#00cfef;
+    font-size: 18px
+}
+.client .carousel-indicators li,
+.stay .carousel-indicators li{
+        border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    background: transparent;
+       border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    background: transparent;
+    border-color: #00cfef;
+    transform: translateY(72px);
+    border-width: 2px;
+    margin-left: 6px;
+    border-right: 1px solid #00cfef;
+    border-left: 1px solid #00cfef;
+    
+    
+}
+
+.news img{
+    max-width: 100%
+}
+.news .row h6{
+    font-size: 18px;
+    color: #00cfef;
+    text-align: left;
+   
+}
+.news ul span{
+    margin: 0 8px
+}
+.news ul{
+    list-style: none;margin-top: 15px;
+    margin-left: -240px
+}
+.news ul li{
+    display: inline-block
+}
+.news p.ccc{
+    font-size: 15px ;
+    margin-top: 30px;
+    text-align: justify;
+  
+}
+.un{
+    position: relative
+}
+.un div{
+    
+   position: absolute;
+    width: 70px;
+    height: 80px;
+    font-size: -1px;
+    top: -7%;
+    left: -1%;
+    background: #00cfef;
+}
+
+.stay{
+    background: url(../images/contact-bg.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+   height: 600px 
+}input{
+    transform: translateY(-30px)
+}
+.stay input:first-of-type{
+    background: transparent;
+    color: #fff;
+    padding: 17px 14px !important;
+    border-radius: 0;
+   
+    display: inline-block;
+    text-align: left;
+    border-color: white !important;
+    text-transform: none;
+    width: 274px;
+    margin-right: 10px;
+    height: 44px;
+    box-shadow: 0 12px 19px rgba(0, 0, 0, 0.1) inset, 0 1px 7px rgba(255, 255, 255, 0.2);
+}
+.stay input:last-of-type{
+background: none repeat scroll 0 0 #00cfef;
+    border: 1px solid #00cfef;
+padding: 11px 20px;
+    color: white;
+    text-transform: capitalize;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
+
+
+}
+
+.stay i{
+background: #00cfef;
+color: white;
+padding: 20px;
+    border-radius: 50%;
+transform: translateY(-170px);
+font-size: 25px}
+
+.stay h2{
+    color: white;
+    font-size: 20px;padding-bottom: 50px !important;
+    transform: translatey(-140px)
+}
+
+
+form p{
+    font-size: 17px !important;
+    
+}
+form p span{
+        color: #00cfef
+
+}
+.contact{
+    border-bottom: 9px solid #00cfef;
+    
+}
+.contact i{
+    font-size: 40px;
+    color: #00cfef
+}
+.contact .row p{
+    font-size: 15px;
+    margin-top: 20px
+}
+.contact input{
+    margin-bottom: 15px;padding: 20px
+}
+.contact .row{
+    margin-top: 60px
+}
+.contact input:last-of-type:hover{
+    background: transparent !important;
+    border: 1px solid #00cfef !important;
+    color: #00cfef !important;
+}
+
+
+.footer{
+     background: #222222;
+    color: white
+}
+.footer ul{
+list-style: none;
+padding-top: 50px}
+
+    
+.footer ul li{
+    display: inline-block
+}
+.footer i{
+    font-size: 25px;
+    color: white;
+    background:#00cfef;
+    border-radius: 4px;
+    padding: 10px;
+    margin-right: 16px;
+    margin-bottom: 40px
+}
+.footer p{
+    padding-bottom: 40px
+}
+.footer p a{
+    color: #00cfef
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.team .image{
+    width: 100% !important
+}
+
+@media screen and (min-width:1000px){
+    
+   .works .image{
+        width: 110.4% !important
+    }
+}
+
+@media screen and (max-width:1000px){
+    
+     header .row{
+        width: 101.4% !important
+    }
+}
+
+
+
+@media screen and (max-width:900px){
+    .client img{
+        margin-left: 200% !important
+    }
+    .news ul{
+        margin-left: -20% !important
+    }
+   
+}
+
+@media screen and (max-width:745px){
+    .works ul li {
+       display: block !important
+    }
+    .skills h4{
+        margin-top: -120px !important
+    }
+    
+    
+    
+}
+@media screen and (max-width:390px){
+    .skills h2 {
+        width: 104px;
+        height: 66px;
+        z-index: 22;
+        transform: translateY(-200%);
+        margin-left: 18%;
+        font-size: 60px !Important;
+        vertical-align: middle;
+        margin-top: 1rem;
+        border: 0px;}
+
+        .skills h4 {
+            margin-top: -139px !important;}
+} 
+@media screen and (min-width:1111px) and (max-width:965px){
+    .skills h4 {
+       margin-top:-40% !important;
+        
+    }
+    
+   
+}
+
+
+@media screen and (min-width:791px) and (max-width:994px){
+    .skills h4{
+        margin-top:-38% !important}    
+
+}
